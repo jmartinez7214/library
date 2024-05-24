@@ -1,0 +1,25 @@
+@import "../../scss/index.scss";
+
+.books-list-web {
+  > h1 {
+    text-align: center;
+    margin: 50px 0;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  .ant-list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .ant-list-item-action {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding-right: 20px;
+    }
+  }
+}
